@@ -1,0 +1,75 @@
+Questions 3(a), 3(b), 3(c): Reporting dataset statistics
+The processed sentence is ['i', 'love', 'eecs', '445', 'it', 's', 'my', 'favorite', 'course']
+d: 628
+Average number of nonzero features: 11.530303030303031
+Most common word: i
+--------------------------------------------
+Question 4.1(b): Best C value and CV performance by metric
+Metric: accuracy
+Best c: 0.100000
+CV Score 0.8783
+
+Metric: f1_score
+Best c: 0.100000
+CV Score 0.8687
+
+Metric: auroc
+Best c: 0.100000
+CV Score 0.9174
+
+Metric: precision
+Best c: 0.100000
+CV Score 0.9470
+
+Metric: sensitivity
+Best c: 0.001000
+CV Score 0.8495
+
+Metric: specificity
+Best c: 0.100000
+CV Score 0.9538
+
+Question 4.1(e): Displaying the most positive and negative words
+coeff: 0.3000 word: happy
+coeff: 0.3073 word: he
+coeff: 0.4065 word: you
+coeff: 0.8559 word: thank
+coeff: 1.1817 word: thanks
+coeff: -0.2103 word: s
+coeff: -0.2358 word: my
+coeff: -0.2408 word: name
+coeff: -0.2478 word: same
+coeff: -0.2551 word: sad
+
+Question 4.3: Quadratic SVM
+4.3(a)i: Quadratic SVM with grid search and auroc metric:
+Best c: 1000.000000 Best coeff: 0.10000
+Test Performance: 0.8824
+4.3(a)ii: Quadratic SVM with random search and auroc metric:
+Best c: 18.948956 Best coeff: 1.41900
+Test Performance: 0.8806
+--------------------------------------------
+Question 5.1: Linear SVM with imbalanced class weights
+Test Performance on metric accuracy: 0.4925
+Test Performance on metric f1_score: 0.6600
+Test Performance on metric auroc: 0.9046
+Test Performance on metric precision: 0.4925
+Test Performance on metric sensitivity: 1.0000
+Test Performance on metric specificity: 0.0000
+
+Question 5.2: Linear SVM on an imbalanced data set
+Test Performance on metric accuracy: 0.8049
+Test Performance on metric f1_score: 0.8919
+Test Performance on metric auroc: 0.7879
+Test Performance on metric precision: 0.8049
+Test Performance on metric sensitivity: 1.0000
+Test Performance on metric specificity: 0.0000
+
+Question 5.3(b): Choosing appropriate class weights
+class_weight={-1: 5, 1: 2}
+Test Performance on metric accuracy: 0.8293
+Test Performance on metric f1_score: 0.9041
+Test Performance on metric auroc: 0.8750
+Test Performance on metric precision: 0.8250
+Test Performance on metric sensitivity: 1.0000
+Test Performance on metric specificity: 0.1250
